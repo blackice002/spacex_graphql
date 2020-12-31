@@ -1,0 +1,22 @@
+.pagination{
+    display: flex;
+    margin: 10px auto;
+    width: 60%;
+    // background-color: orange;
+
+    ul{
+        margin: auto;
+        width: 100%;
+        list-style-type: none;
+        display:flex ;
+       justify-content: space-around;
+       align-items: center;
+        li{
+            display: block;
+            // border: 2px solid lightblue;
+            padding: 0 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 2px rgb(189, 227, 238);
+        }
+    }
+}

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card_wrapper .display_card {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  border: 1px solid white;
+  padding: 10px;
+  color: WHITE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: linear-gradient(#022c63, black) !important;
+}
+
+.card_wrapper .display_card .first_row {
+  width: 100%;
+  background: white;
+  background: -webkit-gradient(linear, left top, right top, from(#015670), color-stop(50%, rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, #015670 0%, rgba(255, 255, 255, 0) 50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+.card_wrapper .display_card .first_row .mission_name {
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+.card_wrapper .display_card .more_details {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  background-color: orange;
+  outline: none;
+  border: none;
+  padding: 0 10px;
+  border-left: 10px solid red;
+  -webkit-transition: .3s;
+  transition: .3s;
+  float: right;
+  border-radius: 0 20px 20px 0;
+}
+
+.card_wrapper .display_card .more_details:hover {
+  background-color: red;
+  text-decoration: none;
+}
+
+.image_card {
+  -webkit-box-flex: 60%;
+      -ms-flex: 60%;
+          flex: 60%;
+  width: auto;
+  height: 200px;
+}
+
+h6 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(39%, rgba(0, 0, 0, 0)), color-stop(41%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.65))) #1c1c1c;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 39%, rgba(0, 0, 0, 0) 41%, rgba(0, 0, 0, 0.65) 100%) #1c1c1c;
+}
+/*# sourceMappingURL=display_card.css.map */

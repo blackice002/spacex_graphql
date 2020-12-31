@@ -1,0 +1,55 @@
+.banner_container {
+  display: flex;
+  flex-direction: column;
+  // background-size: 100% cover !important;
+  // background-position: center, center !important;
+  height: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  background: center;
+  background-size: cover;
+  pointer-events: none;
+
+  .banner_row {
+    display: flex;
+    align-items: center;
+    // height: 100%;
+    background: orange;
+    padding: 10px 0;
+
+    h4 {
+      display: flex;
+      flex: 1;
+      color: black;
+      padding: 0 20px;
+      // -webkit-text-stroke: 2px rgb(255, 255, 255);
+      font-size: 2rem;
+      font-weight: 900;
+      // background: red;
+    }
+
+    .date_para {
+      // text-transform: uppercase
+      margin: 0 auto;
+      padding: 0 20px;
+      // margin-right: 20px;
+      font-weight: bold;
+    }
+  }
+  .nasaData_explanation{
+    color:white;
+    background-color: rgba($color: #000000, $alpha: .5);
+    margin-bottom: 0;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .banner_container,
+  .image_div {
+    flex-direction: column;
+  }
+}

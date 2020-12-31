@@ -1,0 +1,17 @@
+
+$primary:#F5F7FA;
+$success:green;
+
+$theme-colors:(
+    "primary":   $primary,
+    "secondary":  #B1CBBB,
+    "success":    $success,
+    // "info":       $info,
+    // "warning":    $warning,
+    // "danger":     $danger,
+    // "light":      $light,
+    // "dark":       $dark
+);
+    
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

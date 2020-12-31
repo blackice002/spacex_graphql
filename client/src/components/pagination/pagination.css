@@ -1,0 +1,30 @@
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px auto;
+  width: 60%;
+}
+
+.pagination ul {
+  margin: auto;
+  width: 100%;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pagination ul li {
+  display: block;
+  padding: 0 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 2px #bde3ee;
+          box-shadow: 0 0 2px #bde3ee;
+}
+/*# sourceMappingURL=pagination.css.map */
