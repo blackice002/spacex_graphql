@@ -10,8 +10,8 @@
   "scripts":{
     "start":"node server.js",
     "server":"nodemon server.js",
-    "client":"npm start --prefix client",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
+    "client":"yarn start --prefix client",
+    "heroku-postbuild": "YARN_PRODUCTION=false yarn add yarn && run build",
     "dev":"concurrently \" yarn run server\" \"yarn run client\""
   },
   "dependencies": {
