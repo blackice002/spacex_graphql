@@ -16,6 +16,6 @@ app.use(
         })
         );
 
-const PORT = process.env.PORT || 8010;
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.log(`App running on port : ${PORT}`));
